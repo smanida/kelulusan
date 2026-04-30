@@ -21,14 +21,14 @@ let demoMode = localStorage.getItem("demoMode") === "true";
 
 function applyDemoModeUI() {
     if (demoMode) {
-        demoBtn.innerText = "Mode Demo: ON";
+        demoBtn.innerHTML = '<i class="bi bi-lightning-charge"></i> Mode Demo: ON';
         demoBtn.classList.remove("btn-warning");
         demoBtn.classList.add("btn-success");
 
         countdownBox.classList.add("d-none");
         formBox.classList.remove("d-none");
     } else {
-        demoBtn.innerText = "Mode Demo: OFF";
+        demoBtn.innerHTML = '<i class="bi bi-lightning-charge"></i> Mode Demo: OFF';
         demoBtn.classList.remove("btn-success");
         demoBtn.classList.add("btn-warning");
 
@@ -72,7 +72,7 @@ setInterval(updateCountdown, 1000);
 updateCountdown();
 
 // =======================
-// CONFETTI FULL LEDAK
+// CONFETTI
 // =======================
 function runConfetti() {
     confetti({
@@ -83,12 +83,12 @@ function runConfetti() {
 }
 
 // =======================
-// SOUND EFFECT
+// SOUND
 // =======================
 function playSound() {
     const audio = new Audio("https://www.myinstants.com/media/sounds/tada.mp3");
     audio.play().catch(() => {
-        console.log("Autoplay diblokir browser (normal)");
+        console.log("Autoplay diblokir browser");
     });
 }
 
@@ -120,7 +120,8 @@ async function cekKelulusan() {
 
         const data = rows.slice(1).map(row => {
             let obj = {};
-            headers.forEach((h, i) => obj[h] = row[i]?.trim());
+            headers.forEach((h, i) => obj[h] = row[i]?.trim();
+            });
             return obj;
         });
 
@@ -132,79 +133,75 @@ async function cekKelulusan() {
         }
 
         let status = siswa.keterangan?.toUpperCase();
-        let badge = status === "LULUS" ? "success" : "danger";
 
-let html = `
-<div class="card border border-3 border-dark mt-3">
-    <div class="card-body text-center">
+        // =======================
+        // TAMPILAN SERTIFIKAT
+        // =======================
+        let html = `
+        <div class="card border border-3 border-dark mt-3">
+            <div class="card-body text-center">
 
-        <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png"
-             style="width:60px; margin-bottom:10px;">
+                <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png"
+                     style="width:60px; margin-bottom:10px;">
 
-        <h6 class="fw-bold">SURAT KETERANGAN KELULUSAN</h6>
-        <small class="text-muted">SMAN 1 Cidahu</small>
+                <h6 class="fw-bold">SURAT KETERANGAN KELULUSAN</h6>
+                <small class="text-muted">SMAN 1 Cidahu</small>
 
-        <hr>
+                <hr>
 
-        <p class="mb-1">Nama</p>
-        <h5 class="fw-bold">${siswa.nama}</h5>
+                <p class="mb-1">Nama</p>
+                <h5 class="fw-bold">${siswa.nama}</h5>
 
-        <p class="mb-1 mt-2">Kelas</p>
-        <p>${siswa.kelas}</p>
+                <p class="mb-1 mt-2">Kelas</p>
+                <p>${siswa.kelas}</p>
 
-        <p class="mb-1 mt-2">Status</p>
-        <h4 class="fw-bold ${status === "LULUS" ? "text-success" : "text-danger"}">
-            ${status}
-        </h4>
+                <p class="mb-1 mt-2">Status</p>
+                <h4 class="fw-bold ${status === "LULUS" ? "text-success" : "text-danger"}">
+                    ${status}
+                </h4>
 
-        <hr>
+                <hr>
 
-        <p class="small text-muted">
-            Berdasarkan hasil rapat dewan guru, siswa dinyatakan
-            <strong>${status}</strong>
-        </p>
-`;
-
-if (status === "LULUS") {
-
-    // 🎉 efek
-    runConfetti();
-    playSound();
-
-    html += `<div class="mt-3">`;
-
-    if (siswa.skl) {
-        html += `
-            <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
-                <i class="bi bi-download"></i> Download SKL
-            </a>
+                <p class="small text-muted">
+                    Berdasarkan hasil rapat dewan guru, siswa dinyatakan
+                    <strong>${status}</strong>
+                </p>
         `;
-    }
 
-    if (siswa.skkb) {
-        html += `
-            <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
-                <i class="bi bi-file-earmark-text"></i> Download SKKB
-            </a>
-        `;
-    }
+        if (status === "LULUS") {
 
-    html += `</div>`;
+            runConfetti();
+            playSound();
 
-    setTimeout(() => {
-        alert("🎉 SELAMAT! ANDA LULUS 🎉");
-    }, 300);
-}
+            html += `<div class="mt-3">`;
 
-            html += `
-    </div>
-</div>
-`;
+            if (siswa.skl) {
+                html += `
+                    <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
+                        <i class="bi bi-download"></i> Download SKL
+                    </a>
+                `;
+            }
+
+            if (siswa.skkb) {
+                html += `
+                    <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
+                        <i class="bi bi-file-earmark-text"></i> Download SKKB
+                    </a>
+                `;
+            }
+
+            html += `</div>`;
 
             setTimeout(() => {
                 alert("🎉 SELAMAT! ANDA LULUS 🎉");
             }, 300);
         }
+
+        html += `
+            </div>
+        </div>
+        `;
 
         hasilDiv.innerHTML = html;
 
