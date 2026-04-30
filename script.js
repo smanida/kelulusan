@@ -6,13 +6,9 @@ const CSV_URL = "https://docs.google.com/spreadsheets/d/1WLZwabnkJ-AjbmeJwHXnby3
 
 
 
-
-// Waktu pengumuman: 4 Mei 2026 jam 16:00
+// 4 Mei 2026 jam 16:00
 const TARGET_DATE = new Date("2026-05-04T16:00:00");
 
-// =======================
-// COUNTDOWN
-// =======================
 const countdownEl = document.getElementById("countdown");
 const formBox = document.getElementById("formBox");
 const countdownBox = document.getElementById("countdownBox");
@@ -22,8 +18,8 @@ function updateCountdown() {
     const diff = TARGET_DATE - now;
 
     if (diff <= 0) {
-        countdownBox.style.display = "none";
-        formBox.classList.remove("hidden");
+        countdownBox.classList.add("d-none");
+        formBox.classList.remove("d-none");
         return;
     }
 
@@ -32,25 +28,22 @@ function updateCountdown() {
     const m = Math.floor((diff / (1000 * 60)) % 60);
     const s = Math.floor((diff / 1000) % 60);
 
-    countdownEl.innerHTML = `${d}h ${h}j ${m}m ${s}d`;
+    countdownEl.innerHTML = `${d} hari ${h} jam ${m} menit ${s} detik`;
 }
 
 setInterval(updateCountdown, 1000);
 updateCountdown();
 
-// =======================
-// CEK KELULUSAN
-// =======================
 async function cekKelulusan() {
     const nisnInput = document.getElementById("nisn").value.trim();
     const hasilDiv = document.getElementById("hasil");
 
     if (!nisnInput) {
-        hasilDiv.innerHTML = "<p>Masukkan NISN!</p>";
+        hasilDiv.innerHTML = `<div class="alert alert-warning">Masukkan NISN!</div>`;
         return;
     }
 
-    hasilDiv.innerHTML = "<p>Loading...</p>";
+    hasilDiv.innerHTML = `<div class="text-muted">Loading...</div>`;
 
     try {
         const res = await fetch(CSV_URL);
@@ -68,39 +61,40 @@ async function cekKelulusan() {
         const siswa = data.find(s => s.nisn === nisnInput);
 
         if (!siswa) {
-            hasilDiv.innerHTML = "<p>NISN tidak ditemukan!</p>";
+            hasilDiv.innerHTML = `<div class="alert alert-danger">NISN tidak ditemukan</div>`;
             return;
         }
 
         let status = siswa.keterangan?.toUpperCase();
-        let statusClass = status === "LULUS" ? "lulus" : "tidak";
+        let badge = status === "LULUS" ? "success" : "danger";
 
         let html = `
-            <h3>${siswa.nama}</h3>
-            <p>${siswa.kelas}</p>
-            <p>Status: <span class="${statusClass}">${status}</span></p>
+            <h5>${siswa.nama}</h5>
+            <p class="mb-1">${siswa.kelas}</p>
+            <span class="badge bg-${badge}">${status}</span>
         `;
 
         if (status === "LULUS") {
             html += `
-                <br>
-                <a href="${siswa.skl}" target="_blank">
-                    <button>Download SKL</button>
-                </a>
-                <a href="${siswa.skkb}" target="_blank">
-                    <button>Download SKKB</button>
-                </a>
+                <div class="mt-3">
+                    <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
+                        Download SKL
+                    </a>
+                    <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
+                        Download SKKB
+                    </a>
+                </div>
             `;
 
             setTimeout(() => {
-                alert("🎉 SELAMAT ANDA LULUS 🎉");
+                alert("Selamat! Anda LULUS 🎉");
             }, 300);
         }
 
         hasilDiv.innerHTML = html;
 
     } catch (err) {
-        hasilDiv.innerHTML = "<p>Gagal mengambil data!</p>";
+        hasilDiv.innerHTML = `<div class="alert alert-danger">Gagal mengambil data</div>`;
         console.error(err);
     }
 }
