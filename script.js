@@ -134,37 +134,72 @@ async function cekKelulusan() {
         let status = siswa.keterangan?.toUpperCase();
         let badge = status === "LULUS" ? "success" : "danger";
 
-        let html = `
-            <h5>${siswa.nama}</h5>
-            <p class="mb-1">${siswa.kelas}</p>
-            <span class="badge bg-${badge}">${status}</span>
+let html = `
+<div class="card border border-3 border-dark mt-3">
+    <div class="card-body text-center">
+
+        <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png"
+             style="width:60px; margin-bottom:10px;">
+
+        <h6 class="fw-bold">SURAT KETERANGAN KELULUSAN</h6>
+        <small class="text-muted">SMAN 1 Cidahu</small>
+
+        <hr>
+
+        <p class="mb-1">Nama</p>
+        <h5 class="fw-bold">${siswa.nama}</h5>
+
+        <p class="mb-1 mt-2">Kelas</p>
+        <p>${siswa.kelas}</p>
+
+        <p class="mb-1 mt-2">Status</p>
+        <h4 class="fw-bold ${status === "LULUS" ? "text-success" : "text-danger"}">
+            ${status}
+        </h4>
+
+        <hr>
+
+        <p class="small text-muted">
+            Berdasarkan hasil rapat dewan guru, siswa dinyatakan
+            <strong>${status}</strong>
+        </p>
+`;
+
+if (status === "LULUS") {
+
+    // 🎉 efek
+    runConfetti();
+    playSound();
+
+    html += `<div class="mt-3">`;
+
+    if (siswa.skl) {
+        html += `
+            <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
+                <i class="bi bi-download"></i> Download SKL
+            </a>
         `;
+    }
 
-        if (status === "LULUS") {
+    if (siswa.skkb) {
+        html += `
+            <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
+                <i class="bi bi-file-earmark-text"></i> Download SKKB
+            </a>
+        `;
+    }
 
-            // 🎉 efek
-            runConfetti();
-            playSound();
+    html += `</div>`;
 
-            html += `<div class="mt-3">`;
+    setTimeout(() => {
+        alert("🎉 SELAMAT! ANDA LULUS 🎉");
+    }, 300);
+}
 
-            if (siswa.skl) {
-                html += `
-                    <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
-                        Download SKL
-                    </a>
-                `;
-            }
-
-            if (siswa.skkb) {
-                html += `
-                    <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
-                        Download SKKB
-                    </a>
-                `;
-            }
-
-            html += `</div>`;
+            html += `
+    </div>
+</div>
+`;
 
             setTimeout(() => {
                 alert("🎉 SELAMAT! ANDA LULUS 🎉");
