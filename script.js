@@ -15,11 +15,10 @@ const hasilDiv = document.getElementById("hasil");
 const demoBtn = document.getElementById("demoToggle");
 
 // =======================
-// DEMO MODE (persist)
+// DEMO MODE
 // =======================
 let demoMode = localStorage.getItem("demoMode") === "true";
 
-// set tampilan awal berdasarkan demo mode
 function applyDemoModeUI() {
     if (demoMode) {
         demoBtn.innerText = "Mode Demo: ON";
@@ -38,21 +37,19 @@ function applyDemoModeUI() {
     }
 }
 
-// toggle demo
 demoBtn.addEventListener("click", () => {
     demoMode = !demoMode;
     localStorage.setItem("demoMode", demoMode);
     applyDemoModeUI();
 });
 
-// jalankan saat load
 applyDemoModeUI();
 
 // =======================
 // COUNTDOWN
 // =======================
 function updateCountdown() {
-    if (demoMode) return; // skip kalau demo aktif
+    if (demoMode) return;
 
     const now = new Date();
     const diff = TARGET_DATE - now;
@@ -75,6 +72,27 @@ setInterval(updateCountdown, 1000);
 updateCountdown();
 
 // =======================
+// CONFETTI FULL LEDAK
+// =======================
+function runConfetti() {
+    confetti({
+        particleCount: 200,
+        spread: 120,
+        origin: { y: 0.6 }
+    });
+}
+
+// =======================
+// SOUND EFFECT
+// =======================
+function playSound() {
+    const audio = new Audio("https://www.myinstants.com/media/sounds/tada.mp3");
+    audio.play().catch(() => {
+        console.log("Autoplay diblokir browser (normal)");
+    });
+}
+
+// =======================
 // CEK KELULUSAN
 // =======================
 async function cekKelulusan() {
@@ -89,12 +107,10 @@ async function cekKelulusan() {
 
     try {
         const res = await fetch(CSV_URL);
-
         if (!res.ok) throw new Error("HTTP " + res.status);
 
         const text = await res.text();
 
-        // validasi CSV
         if (!text || text.includes("<!DOCTYPE html>")) {
             throw new Error("Data bukan CSV / belum public");
         }
@@ -104,9 +120,7 @@ async function cekKelulusan() {
 
         const data = rows.slice(1).map(row => {
             let obj = {};
-            headers.forEach((h, i) => {
-                obj[h] = row[i]?.trim();
-            });
+            headers.forEach((h, i) => obj[h] = row[i]?.trim());
             return obj;
         });
 
@@ -126,28 +140,34 @@ async function cekKelulusan() {
             <span class="badge bg-${badge}">${status}</span>
         `;
 
-        // tombol download kalau lulus
         if (status === "LULUS") {
+
+            // 🎉 efek
+            runConfetti();
+            playSound();
+
+            html += `<div class="mt-3">`;
+
             if (siswa.skl) {
                 html += `
-                    <div class="mt-3">
-                        <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
-                            Download SKL
-                        </a>
+                    <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
+                        Download SKL
+                    </a>
                 `;
             }
 
             if (siswa.skkb) {
                 html += `
-                        <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
-                            Download SKKB
-                        </a>
-                    </div>
+                    <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
+                        Download SKKB
+                    </a>
                 `;
             }
 
+            html += `</div>`;
+
             setTimeout(() => {
-                alert("Selamat! Anda LULUS 🎉");
+                alert("🎉 SELAMAT! ANDA LULUS 🎉");
             }, 300);
         }
 
