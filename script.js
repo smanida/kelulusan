@@ -3,17 +3,57 @@
 
 
 const CSV_URL = "https://docs.google.com/spreadsheets/d/1WLZwabnkJ-AjbmeJwHXnby3WiUe07qBc2A09Sv6O1kA/export?format=csv&gid=0";
+const TARGET_DATE = new Date("2026-05-04T16:00:00");
 
-
-
-// 4 Mei 2026 jam 16:00
-const TARGET_DATE = new Date("2020-05-04T16:00:00");
-
+// =======================
+// DOM
+// =======================
 const countdownEl = document.getElementById("countdown");
 const formBox = document.getElementById("formBox");
 const countdownBox = document.getElementById("countdownBox");
+const hasilDiv = document.getElementById("hasil");
+const demoBtn = document.getElementById("demoToggle");
 
+// =======================
+// DEMO MODE (persist)
+// =======================
+let demoMode = localStorage.getItem("demoMode") === "true";
+
+// set tampilan awal berdasarkan demo mode
+function applyDemoModeUI() {
+    if (demoMode) {
+        demoBtn.innerText = "Mode Demo: ON";
+        demoBtn.classList.remove("btn-warning");
+        demoBtn.classList.add("btn-success");
+
+        countdownBox.classList.add("d-none");
+        formBox.classList.remove("d-none");
+    } else {
+        demoBtn.innerText = "Mode Demo: OFF";
+        demoBtn.classList.remove("btn-success");
+        demoBtn.classList.add("btn-warning");
+
+        countdownBox.classList.remove("d-none");
+        formBox.classList.add("d-none");
+    }
+}
+
+// toggle demo
+demoBtn.addEventListener("click", () => {
+    demoMode = !demoMode;
+    localStorage.setItem("demoMode", demoMode);
+    applyDemoModeUI();
+});
+
+// jalankan saat load
+applyDemoModeUI();
+
+// =======================
+// COUNTDOWN
+// =======================
 function updateCountdown() {
+    if (demoMode) return; // skip kalau demo aktif
+
     const now = new Date();
     const diff = TARGET_DATE - now;
 
@@ -34,9 +74,11 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000);
 updateCountdown();
 
+// =======================
+// CEK KELULUSAN
+// =======================
 async function cekKelulusan() {
     const nisnInput = document.getElementById("nisn").value.trim();
-    const hasilDiv = document.getElementById("hasil");
 
     if (!nisnInput) {
         hasilDiv.innerHTML = `<div class="alert alert-warning">Masukkan NISN!</div>`;
@@ -47,14 +89,24 @@ async function cekKelulusan() {
 
     try {
         const res = await fetch(CSV_URL);
+
+        if (!res.ok) throw new Error("HTTP " + res.status);
+
         const text = await res.text();
+
+        // validasi CSV
+        if (!text || text.includes("<!DOCTYPE html>")) {
+            throw new Error("Data bukan CSV / belum public");
+        }
 
         const rows = text.trim().split("\n").map(r => r.split(","));
         const headers = rows[0].map(h => h.trim().toLowerCase());
 
         const data = rows.slice(1).map(row => {
             let obj = {};
-            headers.forEach((h, i) => obj[h] = row[i]?.trim());
+            headers.forEach((h, i) => {
+                obj[h] = row[i]?.trim();
+            });
             return obj;
         });
 
@@ -74,17 +126,25 @@ async function cekKelulusan() {
             <span class="badge bg-${badge}">${status}</span>
         `;
 
+        // tombol download kalau lulus
         if (status === "LULUS") {
-            html += `
-                <div class="mt-3">
-                    <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
-                        Download SKL
-                    </a>
-                    <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
-                        Download SKKB
-                    </a>
-                </div>
-            `;
+            if (siswa.skl) {
+                html += `
+                    <div class="mt-3">
+                        <a href="${siswa.skl}" target="_blank" class="btn btn-success btn-sm mb-2 w-100">
+                            Download SKL
+                        </a>
+                `;
+            }
+
+            if (siswa.skkb) {
+                html += `
+                        <a href="${siswa.skkb}" target="_blank" class="btn btn-secondary btn-sm w-100">
+                            Download SKKB
+                        </a>
+                    </div>
+                `;
+            }
 
             setTimeout(() => {
                 alert("Selamat! Anda LULUS 🎉");
@@ -94,7 +154,12 @@ async function cekKelulusan() {
         hasilDiv.innerHTML = html;
 
     } catch (err) {
-        hasilDiv.innerHTML = `<div class="alert alert-danger">Gagal mengambil data</div>`;
         console.error(err);
+        hasilDiv.innerHTML = `
+            <div class="alert alert-danger">
+                Gagal mengambil data<br>
+                <small>${err.message}</small>
+            </div>
+        `;
     }
 }
