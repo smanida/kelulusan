@@ -7,7 +7,7 @@ const CSV_URL = "https://docs.google.com/spreadsheets/d/1WLZwabnkJ-AjbmeJwHXnby3
 
 
 // 4 Mei 2026 jam 16:00
-const TARGET_DATE = new Date("2026-05-04T16:00:00");
+const TARGET_DATE = new Date("2020-05-04T16:00:00");
 
 const countdownEl = document.getElementById("countdown");
 const formBox = document.getElementById("formBox");
