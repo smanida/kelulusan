@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pengumuman Kelulusan SMAN 1 Cidahu</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelulusan SMAN 1 Cidahu</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
+<div class="bg"></div>
+
+<div class="card">
     <h1>Pengumuman Kelulusan</h1>
     <h2>SMAN 1 Cidahu</h2>
 
-    <input type="text" id="nisn" placeholder="Masukkan NISN">
-    <button onclick="cekKelulusan()">Cek Kelulusan</button>
+    <!-- COUNTDOWN -->
+    <div id="countdownBox">
+        <p>Dibuka dalam:</p>
+        <div id="countdown"></div>
+    </div>
 
+    <!-- FORM -->
+    <div id="formBox" class="hidden">
+        <input type="text" id="nisn" placeholder="Masukkan NISN">
+        <button onclick="cekKelulusan()">Cek Kelulusan</button>
+    </div>
+
+    <!-- HASIL -->
     <div id="hasil"></div>
 </div>
-
-<footer>
-    <p>&copy; 2026 SMAN 1 Cidahu</p>
-</footer>
 
 <script src="script.js"></script>
 </body>
