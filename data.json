@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "nisn": 101,
+    "nama": "AAH ROBIAH",
+    "kelas": "XII IPS 1",
+    "keterangan": "LULUS",
+    "foto": "https://drive.google.com/file/d/1ivhDGYdR6QJ4dl1Bn4wIM_B2M3XtOvk3/view?usp=sharing",
+    "skl": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link",
+    "skkb": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link"
+  },
+  {
+    "nisn": 102,
+    "nama": "ADIL FADILLAH",
+    "kelas": "XII IPS 1",
+    "keterangan": "LULUS",
+    "foto": "https://drive.google.com/file/d/1ivhDGYdR6QJ4dl1Bn4wIM_B2M3XtOvk3/view?usp=sharing",
+    "skl": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link",
+    "skkb": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link"
+  },
+  {
+    "nisn": 103,
+    "nama": "ARIL HERDIANSYAH",
+    "kelas": "XII IPS 1",
+    "keterangan": "TIDAK LULUS",
+    "foto": "https://drive.google.com/file/d/1ivhDGYdR6QJ4dl1Bn4wIM_B2M3XtOvk3/view?usp=sharing",
+    "skl": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link",
+    "skkb": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link"
+  },
+  {
+    "nisn": 104,
+    "nama": "AYU SAFITRI",
+    "kelas": "XII IPS 1",
+    "keterangan": "TIDAK LULUS",
+    "foto": "https://drive.google.com/file/d/1ivhDGYdR6QJ4dl1Bn4wIM_B2M3XtOvk3/view?usp=sharing",
+    "skl": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link",
+    "skkb": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link"
+  }
+]
