@@ -2,100 +2,335 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Pengumuman Kelulusan</title>
 
-<!-- Bootstrap 5 -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Bootstrap Icons -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
-<!-- Confetti -->
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/4e5a72c756.js" crossorigin="anonymous"></script>
 
 <style>
-body {
-    background: #f8f9fa;
+@keyframes fadeOut { to {opacity:0; visibility:hidden;} }
+@keyframes fadeScale { from {opacity:0; transform:scale(0.8);} to {opacity:1; transform:scale(1);} }
+
+.animate-fadeScale { animation: fadeScale 0.6s ease; }
+.glow { box-shadow: 0 0 25px rgba(0,255,150,0.7); }
+
+/* LAYER */
+#stage{
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
 }
 
-.card {
-    border-radius: 15px;
+/* GLOW BACKGROUND */
+.stage-glow{
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at center, rgba(0,255,150,0.15), transparent 60%);
+    animation: glowMove 8s infinite alternate;
 }
 
-#countdown {
-    font-size: 1.5rem;
-    font-weight: bold;
+@keyframes glowMove{
+    from{ transform: translate(-10%, -10%); }
+    to{ transform: translate(10%, 10%); }
 }
 
-footer {
-    font-size: 14px;
-    color: #6c757d;
+/* SPOTLIGHT TENGAH */
+.spotlight{
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    width: 300px;
+    height: 600px;
+    transform: translateX(-50%);
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0.25), transparent 70%);
+    filter: blur(20px);
+    animation: spotlightMove 6s infinite alternate;
+}
+
+@keyframes spotlightMove{
+    from{ transform: translateX(-60%) rotate(-5deg); }
+    to{ transform: translateX(-40%) rotate(5deg); }
+}
+
+/* BEAM LAMPU */
+.beam{
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 500px;
+    background: linear-gradient(to top, rgba(0,255,150,0.4), transparent);
+    filter: blur(10px);
+    transform-origin: bottom center;
+}
+
+/* kiri */
+.beam-left{
+    left: 10%;
+    animation: beamLeftMove 4s infinite ease-in-out alternate;
+}
+
+/* kanan */
+.beam-right{
+    right: 10%;
+    animation: beamRightMove 4s infinite ease-in-out alternate;
+}
+
+@keyframes beamLeftMove{
+    from{ transform: rotate(20deg); }
+    to{ transform: rotate(40deg); }
+}
+
+@keyframes beamRightMove{
+    from{ transform: rotate(-20deg); }
+    to{ transform: rotate(-40deg); }
 }
 </style>
 </head>
-<body>
 
-<div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+<body class="bg-gradient-to-br from-indigo-900 via-slate-900 to-black min-h-screen text-white">
 
-    <!-- CARD -->
-    <div class="card shadow p-4 text-center w-100" style="max-width: 420px;">
+<!-- STAGE EFFECTS -->
+<div id="stage">
+    <!-- gradient glow -->
+    <div class="stage-glow"></div>
 
-        <!-- LOGO -->
-        <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png"
-             alt="Logo Sekolah"
-             style="width:80px; margin:auto;">
+    <!-- spotlight tengah -->
+    <div class="spotlight"></div>
 
-        <h5 class="mt-2 mb-1">Pengumuman Kelulusan</h5>
-        <p class="text-muted mb-2">SMAN 1 Cidahu</p>
+    <!-- beam kiri -->
+    <div class="beam beam-left"></div>
 
-        <!-- DEMO BUTTON -->
-        <div class="mb-3">
-            <button id="demoToggle" class="btn btn-warning btn-sm">
-                <i class="bi bi-lightning-charge"></i> Mode Demo: OFF
-            </button>
-        </div>
+    <!-- beam kanan -->
+    <div class="beam beam-right"></div>
+</div>
 
-        <!-- COUNTDOWN -->
-        <div id="countdownBox">
-            <p class="mb-1">
-                <i class="bi bi-clock"></i> Dibuka dalam:
-            </p>
-            <div id="countdown" class="text-primary"></div>
-        </div>
+<!-- SPLASH -->
+<div id="splash" class="fixed inset-0 bg-black flex flex-col items-center justify-center z-50">
+    <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png" class="w-20 mb-3">
+    <div class="text-center animate-pulse">
+        <h1 class="text-2xl font-bold mb-1">Pengumuman Kelulusan</h1>
+        <p class="opacity-70">SMA Negeri 1 Cidahu</p>
+        <p class="text-sm opacity-50">Memuat...</p>
+    </div>
+</div>
 
-        <!-- FORM -->
-        <div id="formBox" class="d-none">
-            <div class="input-group mb-3">
-                <span class="input-group-text">
-                    <i class="bi bi-person-badge"></i>
-                </span>
-                <input type="text" id="nisn" class="form-control" placeholder="Masukkan NISN">
-            </div>
+<!-- MAIN -->
 
-            <button onclick="cekKelulusan()" class="btn btn-primary w-100">
-                <i class="bi bi-search"></i> Cek Kelulusan
-            </button>
-        </div>
+<div id="main" class="hidden flex items-center justify-center min-h-screen p-5 relative z-10">
 
-        <!-- HASIL -->
-        <div id="hasil" class="mt-3"></div>
+<div class="w-full max-w-md">
+<div class="bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl p-6 text-center">
 
+    <!-- LOGO + IDENTITAS -->
+    <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png" class="w-14 mx-auto mb-2">
+
+    <h1 class="text-lg font-semibold">Pengumuman Kelulusan</h1>
+    <p class="text-sm opacity-80">SMA Negeri 1 Cidahu</p>
+
+
+    <p class="text-[10px] opacity-50 mb-5">
+        Jl. Kertawinangun No.09, Cidahu, Kabupaten Kuningan
+    </p>
+
+    <!-- FORM -->
+    <div id="formBox">
+        <input id="nisn" type="text" placeholder="Masukkan NISN"
+            class="w-full p-3 rounded-xl text-black mb-3 text-center">
+
+        <button onclick="cek()"
+            class="w-full bg-blue-500 hover:bg-green-400 transition p-3 rounded-xl font-bold">
+            Cek Hasil
+        </button>
     </div>
 
-    <!-- FOOTER -->
-    <footer class="mt-3 text-center">
-        <p class="mb-1">
-            <i class="bi bi-info-circle"></i>
-            Hasil kelulusan bersifat resmi dan tidak untuk disebarluaskan
-        </p>
-        <p class="mb-0">
-            &copy; 2026 SMAN 1 Cidahu
-        </p>
-    </footer>
+    <!-- HASIL -->
+    <div id="hasil"></div>
+
+    <p id="tanggal" class="text-xs mt-4 opacity-60"></p>
+</div>
+</div>
 
 </div>
 
-<script src="script.js"></script>
+<audio id="soundLulus" src="https://www.soundjay.com/human/applause-01.mp3"></audio>
+
+<script>
+let DATA_CACHE = [];
+let DATA_READY = false;
+
+async function loadData(){
+    try{
+        let res = await fetch("data.json");
+        DATA_CACHE = await res.json();
+        DATA_READY = true;
+        console.log("Data loaded:", DATA_CACHE.length);
+    }catch(e){
+        console.error("Gagal load data.json", e);
+    }
+}
+
+// load saat awal
+loadData();
+
+// SPLASH
+setTimeout(()=>{
+    document.getElementById("splash").style.animation = "fadeOut 1s forwards";
+    document.getElementById("main").classList.remove("hidden");
+},2000);
+
+function cek(){
+    let nisn = document.getElementById("nisn").value.trim();
+    let hasil = document.getElementById("hasil");
+    let formBox = document.getElementById("formBox");
+
+    if(!DATA_READY){
+        hasil.innerHTML = `<div class="mt-4 text-yellow-300">Memuat data...</div>`;
+        return;
+    }
+
+    if(!nisn) return;
+
+    let s = DATA_CACHE.find(x => x.nisn == nisn);
+
+    if(!s){
+        hasil.innerHTML = `<div class="mt-4 text-red-300">Data tidak ditemukan</div>`;
+        return;
+    }
+
+    formBox.style.display = "none";
+
+    if(s.keterangan === "LULUS"){
+        document.getElementById("soundLulus").play();
+        confettiEffect();
+
+        hasil.innerHTML = `
+<div class="animate-fadeScale mt-4 glow bg-green-500/20 border border-green-400 rounded-2xl p-6 text-center space-y-4">
+    
+    <div class="flex justify-center">
+        <img src="${s.foto}" class="w-24 h-24 rounded-full border-4 border-green-400">
+    </div>
+
+    <h2 class="text-xl font-bold tracking-wide">
+        ${s.nama}
+    </h2>
+
+    <p class="opacity-80 text-sm">
+        ${s.kelas}
+    </p>
+
+    <div class="text-xl font-extrabold text-green-300 animate-pulse">
+        🎉 LULUS 🎉
+    </div>
+
+    <p class="text-xs opacity-80 leading-relaxed px-2">
+        Selamat atas kelulusan Anda. Semoga ilmu yang diperoleh dapat bermanfaat 
+        dan menjadi bekal untuk meraih masa depan yang lebih baik. 
+        <br><br>
+        <span class="font-semibold">
+        — Keluarga Besar SMA Negeri 1 Cidahu —
+        </span>
+    </p>
+
+    <div class="grid grid-cols-2 gap-2 pt-2">
+        <a href="${s.skl}" target="_blank"
+            class="bg-white text-black p-2 rounded-lg text-sm font-semibold">
+            📄 SKL
+        </a>
+
+        <a href="${s.skkb}" target="_blank"
+            class="bg-white text-black p-2 rounded-lg text-sm font-semibold">
+            📄 SKKB
+        </a>
+    </div>
+
+    <button onclick="kembali()" 
+        class="mt-3 bg-white text-black px-4 py-2 rounded-xl w-full">
+        ← Kembali
+    </button>
+
+</div>`;
+    } else {
+        hasil.innerHTML = `
+        <div class="animate-fadeScale mt-4 bg-red-500/20 border border-red-400 rounded-2xl p-6">
+            
+            <img src="${s.foto}" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-red-400">
+
+            <h2 class="text-xl font-bold">${s.nama}</h2>
+            <p class="opacity-80">${s.kelas}</p>
+
+            <div class="mt-4 text-xl font-bold text-red-300">
+                TIDAK LULUS
+            </div>
+
+            <button onclick="kembali()" 
+                class="mt-5 bg-white text-black px-4 py-2 rounded-xl w-full">
+                ← Kembali
+            </button>
+        </div>`;
+    }
+}
+
+function kembali(){
+    document.getElementById("formBox").style.display = "block";
+    document.getElementById("hasil").innerHTML = "";
+    document.getElementById("nisn").value = "";
+}
+
+// CONFETTI
+function confettiEffect(){
+
+    function shoot(side){
+        for(let i=0;i<60;i++){
+            let c = document.createElement("div");
+
+            let size = Math.random()*6 + 4;
+
+            c.style.position = "fixed";
+            c.style.width = size + "px";
+            c.style.height = size + "px";
+            c.style.background = "hsl(" + Math.random()*360 + ",100%,50%)";
+            c.style.bottom = "0px";
+            c.style.zIndex = "9999";
+            c.style.borderRadius = "50%";
+
+            // posisi awal kiri / kanan
+            if(side === "left"){
+                c.style.left = "0px";
+            } else {
+                c.style.right = "0px";
+            }
+
+            document.body.appendChild(c);
+
+            // arah tembakan
+            let xMove = side === "left"
+                ? Math.random()*300 + 100   // ke kanan
+                : -(Math.random()*300 + 100); // ke kiri
+
+            let yMove = Math.random()*600 + 300;
+
+            c.animate([
+                { transform: "translate(0,0) rotate(0deg)", opacity: 1 },
+                { transform: `translate(${xMove}px, -${yMove}px) rotate(720deg)`, opacity: 0 }
+            ], {
+                duration: 2000 + Math.random()*1000,
+                easing: "ease-out"
+            });
+
+            setTimeout(()=>c.remove(),3000);
+        }
+    }
+
+    // tembak dari kiri & kanan
+    shoot("left");
+    shoot("right");
+}
+</script>
+
 </body>
 </html>
