@@ -59,7 +59,7 @@ let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 document.getElementById("countdown").innerText =
-    `${days} Hari ${hours.toString().padStart(2,'0')} : ${minutes.toString().padStart(2,'0')} : ${seconds.toString().padStart(2,'0')}`;
+    `${days} Hari, ${hours.toString().padStart(2,'0')} Jam, ${minutes.toString().padStart(2,'0')} Menit ${seconds.toString().padStart(2,'0')} Detik`;
 
 }, 1000);
 </script>
