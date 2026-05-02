@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menunggu Pengumuman</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+@keyframes pulseGlow {
+    0%,100% {opacity:0.6;}
+    50% {opacity:1;}
+}
+.glow { animation: pulseGlow 2s infinite; }
+</style>
+</head>
+
+<body class="bg-gradient-to-br from-indigo-900 via-slate-900 to-black min-h-screen flex items-center justify-center text-white">
+
+<div class="text-center p-6 bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl max-w-md w-full">
+
+    <!-- LOGO -->
+    <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png" class="w-16 mx-auto mb-3">
+
+    <h1 class="text-xl font-bold">Pengumuman Kelulusan</h1>
+    <p class="text-sm opacity-70 mb-5">SMA Negeri 1 Cidahu</p>
+
+    <!-- COUNTDOWN -->
+    <div id="countdown" class="text-3xl font-extrabold glow mb-4">
+        00 : 00 : 00
+    </div>
+
+    <p class="text-xs opacity-70">
+        Pengumuman akan dibuka pada waktu yang telah ditentukan
+    </p>
+
+</div>
+
+<script>
+// ⏰ SET WAKTU PENGUMUMAN (UBAH DI SINI)
+const targetDate = new Date("2026-05-04T16:00:00").getTime();
+
+// UPDATE COUNTDOWN
+const timer = setInterval(() => {
+
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    if (distance <= 0) {
+        clearInterval(timer);
+        window.location.href = "index.html"; // redirect
+        return;
+    }
+
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerText =
+        `${hours.toString().padStart(2,'0')} : ${minutes.toString().padStart(2,'0')} : ${seconds.toString().padStart(2,'0')}`;
+
+}, 1000);
+</script>
+
+</body>
+</html>
