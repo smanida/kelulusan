@@ -3,45 +3,108 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Menunggu Pengumuman</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
 <style>
-@keyframes pulseGlow {
-    0%,100% {opacity:0.6;}
-    50% {opacity:1;}
+@keyframes fadeOut { to {opacity:0; visibility:hidden;} }
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.08);}
+    100% {transform: scale(1);}
 }
-.glow { animation: pulseGlow 2s infinite; }
+
+.time-box {
+    background: rgba(255,255,255,0.1);
+    padding: 12px;
+    border-radius: 16px;
+    width: 65px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0,255,150,0.2);
+}
+
+.time-box span {
+    font-size: 22px;
+    font-weight: bold;
+    animation: pulse 1s infinite;
+}
+
+.time-box p {
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+/* efek glow background */
+.bg-glow {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(0,255,150,0.15), transparent 60%);
+    animation: moveGlow 8s infinite alternate;
+    z-index: 0;
+}
+
+@keyframes moveGlow {
+    from {transform: translate(-10%, -10%);}
+    to {transform: translate(10%, 10%);}
+}
 </style>
 </head>
 
 <body class="bg-gradient-to-br from-indigo-900 via-slate-900 to-black min-h-screen flex items-center justify-center text-white">
 
-<div class="text-center p-6 bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl max-w-md w-full">
+<!-- BACKGROUND -->
+<div class="bg-glow"></div>
+
+<!-- CARD -->
+<div class="relative z-10 text-center p-6 bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl max-w-md w-full">
 
     <!-- LOGO -->
-    <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png" class="w-16 mx-auto mb-3">
+    <img src="https://res.cloudinary.com/dq4snx0ml/image/upload/v1762918483/logosma_ppjhiz.png"
+        class="w-16 mx-auto mb-3">
 
     <h1 class="text-xl font-bold">Pengumuman Kelulusan</h1>
-    <p class="text-sm opacity-70 mb-5">SMA Negeri 1 Cidahu</p>
+    <p class="text-sm opacity-70">SMA Negeri 1 Cidahu</p>
 
     <!-- COUNTDOWN -->
-    <div id="countdown" class="text-3xl font-extrabold glow mb-4">
-        00 : 00 : 00
+    <div class="flex justify-center gap-3 mt-6">
+
+        <div class="time-box">
+            <span id="d">00</span>
+            <p>Hari</p>
+        </div>
+
+        <div class="time-box">
+            <span id="h">00</span>
+            <p>Jam</p>
+        </div>
+
+        <div class="time-box">
+            <span id="m">00</span>
+            <p>Menit</p>
+        </div>
+
+        <div class="time-box">
+            <span id="s">00</span>
+            <p>Detik</p>
+        </div>
+
     </div>
 
-    <p class="text-xs opacity-70">
+    <!-- TEXT -->
+    <p class="text-xs opacity-70 mt-5">
         Pengumuman akan dibuka pada waktu yang telah ditentukan
     </p>
 
 </div>
 
 <script>
-// ⏰ SET WAKTU PENGUMUMAN (UBAH DI SINI)
-const targetDate = new Date("2026-05-04T16:00:00").getTime();
+// ⏰ WAKTU TARGET (WIB)
+const targetDate = new Date("2026-05-04T16:00:00+07:00").getTime();
 
-// UPDATE COUNTDOWN
 const timer = setInterval(() => {
 
     const now = new Date().getTime();
@@ -49,17 +112,27 @@ const timer = setInterval(() => {
 
     if (distance <= 0) {
         clearInterval(timer);
-        window.location.href = "index.html"; // redirect
+
+        // animasi sebelum redirect
+        document.body.style.transition = "1s";
+        document.body.style.opacity = "0";
+
+        setTimeout(() => {
+            window.location.href = "index.html";
+        }, 1000);
+
         return;
     }
 
-let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-document.getElementById("countdown").innerText =
-    `${days} Hari, ${hours.toString().padStart(2,'0')} Jam, ${minutes.toString().padStart(2,'0')} Menit ${seconds.toString().padStart(2,'0')} Detik`;
+    document.getElementById("d").innerText = days.toString().padStart(2,'0');
+    document.getElementById("h").innerText = hours.toString().padStart(2,'0');
+    document.getElementById("m").innerText = minutes.toString().padStart(2,'0');
+    document.getElementById("s").innerText = seconds.toString().padStart(2,'0');
 
 }, 1000);
 </script>
