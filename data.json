@@ -1,38 +1,1570 @@
 [
-  {
-    "nisn": 101,
-    "nama": "AAH ROBIAH",
-    "kelas": "XII IPS 1",
-    "keterangan": "LULUS",
-    "foto": "https://smanida.github.io/kelulusan/foto/101.png",
-    "skl": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link",
-    "skkb": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link"
-  },
-  {
-    "nisn": 102,
-    "nama": "ADIL FADILLAH",
-    "kelas": "XII IPS 1",
-    "keterangan": "LULUS",
-    "foto": "https://smanida.github.io/kelulusan/foto/fajar.jpg",
-    "skl": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link",
-    "skkb": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link"
-  },
-  {
-    "nisn": 103,
-    "nama": "ARIL HERDIANSYAH",
-    "kelas": "XII IPS 1",
-    "keterangan": "TIDAK LULUS",
-    "foto": "https://smanida.github.io/kelulusan/foto/101.png",
-    "skl": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link",
-    "skkb": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link"
-  },
-  {
-    "nisn": 104,
-    "nama": "AYU SAFITRI",
-    "kelas": "XII IPS 1",
-    "keterangan": "TIDAK LULUS",
-    "foto": "https://smanida.github.io/kelulusan/foto/101.png",
-    "skl": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link",
-    "skkb": "https://drive.google.com/file/d/1D8XdhsoTRZWkoMjl2gHaBnPgCWlNVK-L/view?usp=drive_link"
-  }
+   {
+  "nisn": "0079656494",
+  "nama": "ABDU ROSID",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079656494.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1fJ5vMHNg82g6aKE1D37D-8CZFFtrOPXu\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0075944387",
+  "nama": "ADITIA BASKARA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0075944387.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1F7stlX0pruU77LCAD2QcOOJPJqj7X-kc\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083309640",
+  "nama": "AFGAN SYAHREZA",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083309640.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/10WT_-nnFd0Rhl7B6uszLDlmH689zgE1e\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078534896",
+  "nama": "AHMAD FAOZAN",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078534896.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1zX5OkIaXUXYHXufYakaaKPiAa2njFKVe\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072526175",
+  "nama": "AHMAD NAWAWI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072526175.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1OgyzOpad5j9NgX1UVPUMmmA1z9Y_M2x1\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082758386",
+  "nama": "AISYA NUURI SHALAISYA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082758386.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1wc7GWvbic_utTsPyaTUZHsFeTYmld_CX\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087356667",
+  "nama": "AISYAH NUR BUDI FAUZIAH",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087356667.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1cD6G_mPtkltFg2uZKv-KbFT5-7H5Sc3m\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082517748",
+  "nama": "AKMAL AMANULLOH",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082517748.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1hJWOnzMyh6aPgK4GhDMYFOJcazdTu0NO\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089827213",
+  "nama": "ALDI RIKI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089827213.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1ahrNyCqEJDSdaOTnt0gvatvxII-rMuX8\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087010008",
+  "nama": "ALIFA HASNAH",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087010008.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1QI5AAK7Bk29zxq09VMeA0emdTR0FJz2K\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085145208",
+  "nama": "ALIKA NAISYILA HAKIM",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085145208.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1F2epRrqaeGkzd11_f5eLTXora39GHWIv\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084297122",
+  "nama": "ALIN NUR FAUZIYAH",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084297122.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1IiAs_3uLpQepMNHDNa20BXSvNsmFP0J5\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0073747012",
+  "nama": "ALPARIZKI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0073747012.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1ugF4XPmsaqYi8rXW-Jwgyfz-KiIWPP4V\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0088453501",
+  "nama": "ALPIAN MAHESAPUTRA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0088453501.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1t7NTf0Ys-RMw-y5rzFfsvH3F0s-rBvrS\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076050613",
+  "nama": "ALYA NOVIANI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076050613.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/18moklgXIZWn0jAyHCQpoF6zgI9FQ9nqD\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076978983",
+  "nama": "AMANDA AGISTA PUTRI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076978983.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1btLGrakbhebHpZCjSZqDgGH__3qqSuET\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0081179528",
+  "nama": "AMEL LISTIA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0081179528.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Fp1gEuBECRO4HSRY_hwaPfPgqA-zJZ3d\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084993657",
+  "nama": "AMELIA PUTRI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084993657.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1sMQGySYxHc-aNWfTyPBp_CDGq2jBlHy8\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083096846",
+  "nama": "ANANDA TRI MAESAH",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083096846.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1OJnk1FxEmuVteGT9RiD1G1W-INd5nw4Z\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0081076660",
+  "nama": "ANGGI MAESYAROH PUTRI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0081076660.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1e4eEAp8wSo9gwu6veyvA7FwmTxXXG2hr\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078160602",
+  "nama": "ANGGITA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078160602.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Q5FkNKNJhkdwU1zqK-Shufcb-rtZARn-\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076988040",
+  "nama": "ANGGUN PUTRI SABRINA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076988040.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1WsZvo-VjwASMVjUiGPnLkTdw7Gd6Gg6G\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074367905",
+  "nama": "ANISA LUKIA RAHMAWATI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074367905.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1buVPIezA_jEKxUnBhFPFUhasz8mNKwGm\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078664119",
+  "nama": "ANNISA DWI INSANI",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078664119.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/10tSOlCmsOE4454mEVUq65rLc0zu8BUJd\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0081665185",
+  "nama": "APRILIANI DIANTIKA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0081665185.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1lsaObdk8KGQ7vwC5UsnM-khSHlP9kEcN\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078576016",
+  "nama": "ARIEP RAHMAN",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078576016.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1NbOqolMblYAEyLazpMCUr2xo4Hcf4KPr\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076447961",
+  "nama": "ARIF HERMAWAN",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076447961.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1FDYINhzBzCcG9Huvk7yOTG0jR5LNjx0e\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0073850687",
+  "nama": "ARNITHA CHAROLINE GUNTORO",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0073850687.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1bAYsZdUf6OWpPw0bY00YDj-9KlwLTg6-\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077650233",
+  "nama": "ASIAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077650233.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1AuOkiO782pqaEgfQwJ0Ms48A892S4_zf\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087534542",
+  "nama": "ASTRI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087534542.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/13iAkdK9CNYu89DyuXvEN0R-SQjEqe1UF\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0071914575",
+  "nama": "AYU ANGGRAINI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0071914575.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1uC9y53KqYqIs-OwUQur4-izIPrHwaGRN\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "3088561459",
+  "nama": "AZAHRA MAULIDIA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/3088561459.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1p7-TGPXdz5Xa9q0zHribH-DhGu8auyir\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0071445388",
+  "nama": "AZIZAH SOLEHAYUDIN",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0071445388.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1iK29l2AE5PiFVhM9NF-Bnq517uec2ZXg\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085717943",
+  "nama": "BUNGA PERMATA SETIADI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085717943.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1CamcKcXPrOuv5HdorD6QBiARPhOI1blv\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072702541",
+  "nama": "CANDRA",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072702541.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1lPsFwHJNsEEar3b04wmpAFXrOOmiQn1p\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087810685",
+  "nama": "CANTIKA",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087810685.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1o9yvkDNALmtB19ygL9vpe5ziPs-q5O9H\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077208090",
+  "nama": "CIKA NATASYA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077208090.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1q292zOI8YcnkfN9r_wwq1JZTpo8lBT_c\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072777746",
+  "nama": "DADAN RAMDANI",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072777746.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1zL7k0OnFuLR2UIRCi9odfGKljZfgFENF\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0066937152",
+  "nama": "DELA DIANA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0066937152.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1VNHaX0VFUJzRCTKxzv7AekUGdKQN0aMS\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085318603",
+  "nama": "DENADA AULIA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085318603.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1AcxZOinAQczQjAgij3cwIWWThDVrAsmt\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0069564463",
+  "nama": "DESI RATNA NINGSIH",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0069564463.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1ZMg54bbEYyKkGcPTy5flYDr0Iy6BaSPF\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074869120",
+  "nama": "DESVITA NUR RAYYANI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074869120.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/13ih-JY_0QVe6d_5Lh9qXI2c_FoxacmK1\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086047819",
+  "nama": "DHIYA AZKA FAUZIE",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086047819.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1CLQEg-DZXKjZI_EyuWpepcn5NllZ_Q3x\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084256877",
+  "nama": "DIFFA NURUL KAMILA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084256877.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/18cYwEq-R14JCUgSOCKdgHMQwpDBch4ty\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0068786505",
+  "nama": "DIKI ARYANTO",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0068786505.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/17w2VK7sXYOs-Xsfo5-iadrMDT1mUnwy8\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0075516745",
+  "nama": "DINAR AUFAL MAROM",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0075516745.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1NQjJtDK7ui4xpZacu4GaHivDnK_UlNCB\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0075681010",
+  "nama": "DINDA AGUSTIN",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0075681010.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1M5IUnZESWXfX-eVlCKKuti1CsyRyJBhx\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0075609595",
+  "nama": "DINI NAYLA SA'ADAH",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0075609595.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1arMoQjUnM1yIsruDIbOsQfBRJ_7Rehad\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087764484",
+  "nama": "DIPA PUJA RISMAH",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087764484.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1ug_YQSQvR2roj8c7i8AXJOar2FscvWmX\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079333141",
+  "nama": "DWI NINGRUM",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079333141.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/12w1fHxkdRawJmD1bbfe7tMk0cwxzMWdH\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084654090",
+  "nama": "DWIPA NUR APIPAH",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084654090.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Uv5fE6pr4FfVRNjE-qdcq2W-90aJjjkN\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086913900",
+  "nama": "DZUN NUN MUFIED MAFAAZAA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086913900.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1teWR_tGjc_qnV1LZEzhBWmCpWxuqP1mW\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074815886",
+  "nama": "EGA PRATAMA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074815886.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Pgrz-Noqv8l1dufwVX97tzsdyPZotBjr\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077348387",
+  "nama": "ELIN NATALIA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077348387.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1TfmYKSYSky0mMWgctGdH9VexI8NsODBt\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089600653",
+  "nama": "ELITA CAHYA PUTRI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089600653.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1sysqlQ7qCx7M6tl_Up7BQGnktl_3YfJy\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0088754495",
+  "nama": "ELSA AMELIA",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0088754495.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1I3t8rLD3LJzy1xy8jYC2-bw9ur8cjrax\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086440544",
+  "nama": "EPAN REPALDI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086440544.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/13ggIP52agY9qUtWSdmFQwMYJffW5w2To\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082242987",
+  "nama": "FAHMI IDRIS",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082242987.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1buX-euEAD3pvRIKZL4VBbeU9s3hOeeyb\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072695753",
+  "nama": "FAHMI PUADI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072695753.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1X6RaUgz7W67lwSqlQ6r2VfY16HAfAS89\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085747385",
+  "nama": "FAREL AINU ROFIQ",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085747385.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1qSCcsAJ2ft4Ka2u766jLxO5FZUohOdDa\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0075628825",
+  "nama": "FIRA AFIATUN NURHASANAH",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0075628825.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/12fyT40BhQBCKZLpUnReoxOyzyv5bW1AF\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083522229",
+  "nama": "FITRI HANIPATUL ZAHRA",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083522229.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/13ZcKQCmRna1tCQpAkTI14ejYm2nOeVAg\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086867737",
+  "nama": "GALANG RAMADI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086867737.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1XGwuPgIvc9m8vCQLZWofomPUpj6GCBNd\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086103102",
+  "nama": "GALIH NAUVAL",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086103102.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1BxgYm0udsZQH0Fv03sDINFFNSV_i2d1u\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074072582",
+  "nama": "GANI WARDANI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074072582.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1x6gK-UAbtcGLjmyvHKtWjHJHM3jx-wzK\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0073495467",
+  "nama": "GIO ALIF HANDZALLAH",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0073495467.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1zZBNo2Rk9ererK0xPLjmaLeZrNKT-RW4\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0065412499",
+  "nama": "HAIKAL AHMAD PAJRIADI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0065412499.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/17ljYzjWK1qIHS1J-8ZcSS4gkJUsODOXL\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084934430",
+  "nama": "HAMZAH",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084934430.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1yzdPjQBoXW2jc5v40VcWPd33x8n8JEiP\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076443994",
+  "nama": "HANA FUADAH",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076443994.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1MKRGopo8bDC3Kl75jCsG-MMPfp23EuiF\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085256610",
+  "nama": "HELDA LIAPUTRI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085256610.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1_uIrpwDcdGfiBp47Q6Dr2NJJ3095ojhe\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083634564",
+  "nama": "HUDZAIFAH FERDIANSYAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083634564.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1hqodAe-FvzcNDx6t1XuIqvJ3MIqjnumz\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0071360661",
+  "nama": "INDRIYANI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0071360661.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1fDb2QuxNL19p9VyrB8OXLPXMf-CFq_7T\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077674443",
+  "nama": "INTAN NAIRA SALSABILA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077674443.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1FIsfn_3mx5wg6BuafkZuKDAmo20ODFmY\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076587017",
+  "nama": "INTAN TANIA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076587017.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Igktsp8wSBApc4b6E8E-gno5eqjnD5lJ\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078546385",
+  "nama": "IRA MUTIARA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078546385.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1WZdiJx2t-CporHL-xvHfVDUgHgb0W-xX\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077451211",
+  "nama": "KEISA PATIN",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077451211.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1dRKbNd73Fqj3HYfeNyEvDD16wQhdwwwR\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082178524",
+  "nama": "KEISYA NUUR SHALAISYA",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082178524.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1AEKnFaAWkZEjpfwC59x6RnJJqhvIXIqL\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074625982",
+  "nama": "KHAIRUN NISA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074625982.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1AKKyVSiKUSP2ICBTqwb4jv2r_H4aL9aJ\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077295021",
+  "nama": "KIKEN AYU ANDREA",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077295021.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1mabV7eHguSWQ3P2I1jywoE8seNEcjvnO\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076789646",
+  "nama": "LATVIA DELIMA PUTRI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076789646.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1BAU7Wnmg2oqJ9d4y0Rx9npu3h50QDs6S\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079529844",
+  "nama": "LELI LAILATUL KOMARIAH",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079529844.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1pZaE65IZ8dBJAbymkkRoSOvCVNfgpPII\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076647574",
+  "nama": "LENI SUPIANI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076647574.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1DqV3A_qAlB_1vbe_dAa-FwZyR0PXbtCj\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074532320",
+  "nama": "LILIS SUHARTINI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074532320.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1oScyn4BUh9k2cG5yZBDMI_IzwYuoLkyD\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082933358",
+  "nama": "LULU ANJANI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082933358.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1RWMu2I3mdg9O0Nx7yFNk71eVc57Hst6v\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082432062",
+  "nama": "MAHMUD RIFA'I",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082432062.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1emhshoqkDeJresMTFsantm6GGU-AM6bL\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086545583",
+  "nama": "MALIHATUNNISA UTAMI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086545583.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1CZgLrA277RfLE0ljPj5XxSgp6kwWQmVV\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077389479",
+  "nama": "MARHANA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077389479.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1EiZ3oP6mucWUZ0kzpUu_tTZ7M3p7Aeb2\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086628019",
+  "nama": "MIA FATUL ROHMAH",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086628019.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1KkLeM5b4Z1k4CVKGvrWciNVZ4uRA25-O\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079395572",
+  "nama": "MILA SITI JAMILAH",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079395572.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1pmHunnTCvbs8f7FlXaj86-dscrx22EHk\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0075455825",
+  "nama": "MIMIN JAMILAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0075455825.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1k53xXD7kSb28QMObZV2PouHXwRtDmZIf\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084884870",
+  "nama": "MOHAMAD AVIV",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084884870.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1ocTAchsv_VDqzGlnjt9AT1CYAAn3c70W\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087320647",
+  "nama": "MUHAMAD ABAN SAIPUDIN AMSIR",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087320647.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1I3JEgA2_OZuhAKfMyltskUgrz_camz0u\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072742603",
+  "nama": "MUHAMAD ADITIA",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072742603.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1PgrdAhLTKudRUzEbqydAezh1Jc91o5Hv\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0071971637",
+  "nama": "MUHAMAD AFAN FAJARUDIN",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0071971637.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1IPRjXZ0o0dZw9MEUhXVKI0yO6iF84prS\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086078901",
+  "nama": "MUHAMAD FADLY CHAERUL RAMADHAN",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086078901.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/14niUzf-z_G9p8paIF9fRNBYNZUZMJbG6\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0081935968",
+  "nama": "MUHAMAD NAUFAL",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0081935968.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1YJSp0FtiSHgfGsLTUs9GB-SIi37fgIi4\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089580358",
+  "nama": "MUHAMAD NURUL FATAHILLAH",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089580358.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/16ZvlTbEtplpIB3VKQ-NVjqXYbSq8ezRY\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077429226",
+  "nama": "MUHAMAD PAHRUL HUSAENI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077429226.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/13ySxrwbj9GEUXdrawMheuXFam5Qt1dHm\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079522880",
+  "nama": "MUHAMAD PIKI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079522880.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1pV3z1ai9jGhN8Jtc6_q2OJeBjZKiYdaI\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072751738",
+  "nama": "MUHAMAD RAIHAN AL FARIJI",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072751738.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1AeM7J3Wwx5nPfRzt3EiB-dtt1vwEVKN-\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086418074",
+  "nama": "MUHAMMAD ANDRIANSYAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086418074.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1AukZbYP7yHbeBGO84_hv2GdRotz5-Y0R\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083980505",
+  "nama": "MUHAMMAD FACHRI HUSAENI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083980505.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1eYnR-zXbO7PPEKIygOrY7_WwBMHHYhZV\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0063943333",
+  "nama": "MUHAMMAD FADILAH",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0063943333.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1n-5oW5izccHrBqq055VtOiap0ZIINwIt\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072654855",
+  "nama": "MUHAMMAD FAISAL ISKANDAR",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072654855.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1C5Nj9pIH11XE2j_IAMOcQQnqwg3zMKhw\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0088175454",
+  "nama": "MUHAMMAD IZZAMZAMA HAKIM MUZYAFFA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0088175454.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1o_aXN-A9ysZm8WgljUUK3W3p5ztl0gsp\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084741054",
+  "nama": "MUHAMMAD NUR HAMDANI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084741054.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1OQ_HUZc1w26Ucqb-sWIc8ivy2_4aQeGS\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079595560",
+  "nama": "MUHAMMAD PAREL ALPARIJI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079595560.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1TMzrDA-kAVKPSpJOdkR_Nno7BRMJWMaE\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087403098",
+  "nama": "MUHAMMAD RAHMAT FADILAH",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087403098.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/112oearZTigLaN3iDoaWNvRFd6WnHIOUi\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072759688",
+  "nama": "MUHAMMAD REHAN ALPADILAH",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072759688.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1LKJLtuMWjC8HdLqKyn8ziET7MNIfJ6yn\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076176840",
+  "nama": "MUHAMMAD RIZKY RAMADHAN",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076176840.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1VKtRo5S9SmtH-MOufa2LVVa2Fu5TNIIw\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072925186",
+  "nama": "MUHAMMAD UUS KUSNADI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072925186.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Q4TISh4ZeiMPp6lCK39wL8MTVIak8UHu\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087715877",
+  "nama": "MUHAMMAD YUNUS LADONNY",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087715877.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1txh6DzH-z_GLGiQdBXUXwOkCCyoSr2zt\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089330109",
+  "nama": "NABILA",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089330109.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1qEvcDk68ZViEtuf_0zJagO1r8YQIdkn3\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083718979",
+  "nama": "NAHLA DIZA MAULIDA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083718979.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1OgiwADtmtzJDRioHdaTfiM7ctJSS6iCg\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078067341",
+  "nama": "NAILLA NOVIYANI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078067341.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1huURlAEWFvwwE04QPSj-S3vrcMBQM-G4\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0075609158",
+  "nama": "NAJWA RAHMADANI",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0075609158.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1r9Ie10YBSlGsA9mHEWF8MRVbxuPBtwTX\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076523102",
+  "nama": "NANA RUSDIANA",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076523102.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1kh_DsRZHiTJzEOQN7SPSeeqDPUsaHjsr\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084946184",
+  "nama": "NAURA AFIFAH ZAHRA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084946184.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1pmpbKd9zYQEVdRt-erXuAvICxPqXWa5u\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079586347",
+  "nama": "NAYLA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079586347.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Bpiov-gR3njx5RlDh5NOCYC0-B2i8Dwc\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0073267914",
+  "nama": "NAZWA FADILAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0073267914.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1b3NyQBHSiUaYLUbsDSgtgM2S_NLZ_GEk\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082834199",
+  "nama": "NAZWA QHAERUNISA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082834199.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/19w3fpvAk6gejH0VRFGB74h7aLZNnxx8t\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077773037",
+  "nama": "NECA NURHAENI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077773037.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1g747xozpzXgFGw4ROWcHh7t-HCLknJZZ\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085131186",
+  "nama": "NIKITA ALICIA BERLYN",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085131186.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/18aP19VCwAZ57JZV8rSWwvWvXyO9Uw-L-\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082130889",
+  "nama": "NISA AULIA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082130889.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1BNOyWfwSVGf5Vu6kI2JBZiG_gz9auPIr\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082189166",
+  "nama": "NISWATUN HASANAH",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082189166.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1bO9llxGbS7POgEZyNL-ly4UuCy1eWKKn\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0088822574",
+  "nama": "NUR AMELIA TONDA",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0088822574.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1478oLb7J9WIT2U7pRUydzFEt0N51iduO\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072641456",
+  "nama": "NUR HAYATI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072641456.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1WY1MWfCJMgXvttsl8ysrpeQsy-orhWKr\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076322423",
+  "nama": "NUR LAELASARI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076322423.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1-OuFporONiKPgArdVV7qH-CO_iB3KB1B\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084917010",
+  "nama": "NUR PUSPITA DEWI",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084917010.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1EeJE8zKohWG6LwKIQoDqFwuE5vqACAlX\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078706642",
+  "nama": "NUR SITI NUROHMAH",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078706642.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1DBIVO3HyM2GQJdxOJz8IvQoQFgveqrJb\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074043370",
+  "nama": "NUR YANI",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074043370.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1dBGmw9tqd_W2yOAzq6HHK5esjVeRDR8G\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082273153",
+  "nama": "NURLITA SARI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082273153.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1bZ84Es88y1EOcunn_mKbF6N-lQf_6Icx\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078328011",
+  "nama": "NURMASITOH",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078328011.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1TEi-QhZCGPgdDB0X49N7MNR9hUaafPbX\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078764529",
+  "nama": "PATEH AHMAD RIFAI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078764529.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1i2a9IQ9MWla-yKAPjmsgcfkuFza95x72\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084723493",
+  "nama": "PIKA PATIMATU JAHRO",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084723493.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1UJgRODr5o1JnN5zctZ8RkBG1TCJwiyZb\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079026266",
+  "nama": "PIRA RAMADANIA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079026266.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1eC_CV0E_zF78pPBiQ-B6ATMOjHoqKQ-_\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076200874",
+  "nama": "PUJA ERNA MARWATI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076200874.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1RQ_HSTmn1zFUEZEv3x0n8_hFq_7f7VuW\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085806616",
+  "nama": "PUTRI DWI IMELYANI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085806616.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1PQMlLE0bZtdKuwp946BwvTpu7wqCn85N\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074531934",
+  "nama": "PUTRI RAMADHANI",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074531934.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1TSY0sb9dBd-_EryMryAZ8ct78XjxC6uc\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "3082969071",
+  "nama": "PUTRIA ANDINI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/3082969071.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1_90r03TwIR-imRuWkqiZOmdzgzIP5srq\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084590116",
+  "nama": "RAHMAH AULIA PUTRI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084590116.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Kf29Z8xKraWjwYeXDPYjF0_iES9f7kIs\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078280361",
+  "nama": "RAMLAN",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078280361.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1XZnadwZgOz9ypKcthr8ZLqxh3fbKTPnR\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089990185",
+  "nama": "RARA CANTIKA ADHWA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089990185.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1T9K6QypICmAasB8cTOPs09v1g_n5BG5I\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085415765",
+  "nama": "RATNA KOMALA SARI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085415765.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/15_1wgisDXICZRx0OvprfD0TSXHCltmqc\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083266166",
+  "nama": "REFAN MAULANA",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083266166.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/11iJ3bNVegfHpFwUbxgftEkXU_HlfLg_F\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072646280",
+  "nama": "REFIANSAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072646280.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1O8M_XuIAzdy3L-vL55o_ffaGl2OBTr-P\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074273219",
+  "nama": "REHAN NUR FAUZILAH",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074273219.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1yEEiiOMFrDgFpKBz9PRcqpOz3eBzGrqF\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072633089",
+  "nama": "REVA RAISYA FITRI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072633089.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1xFXpVGGv5FEvMNvuwjMo4IEh350hVZX1\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087486408",
+  "nama": "REYSA AULIA",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087486408.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1EQ_n6ATYI5XJUE-FRdQoRvm4W96LXVT1\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079406843",
+  "nama": "REZAITUN NEISA",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079406843.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1zXOgg5qSPgRbcX42nSVEVlm8J4RvY5_H\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082522721",
+  "nama": "RIA NURFAZRIAH",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082522721.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1P5llPtrfd2Qp1zntltY-VQlzpQcUl8Na\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0068805184",
+  "nama": "RYVA PUTRA DYANVA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0068805184.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1QbHzX9anuJDZIrkD1dG8QbmnFd6sDmuP\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074684565",
+  "nama": "SAHNAZ REGINA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074684565.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1c1iumo7JtdHsL_vneuTlu-j_0mYv8Qac\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072195889",
+  "nama": "SALSA BILA RAMADANI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072195889.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/19VpkM0unds38OHhkgNNJjTZruccmFYfa\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074931301",
+  "nama": "SALSA NABILA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074931301.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1g3zVzUApbH-Pg1Ql3872zEw3IXcLA7zZ\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079127884",
+  "nama": "SELI ANJANI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079127884.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1JuKS0VeKfBYpBhXHV18BeQzhqfjt5Jt2\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072377315",
+  "nama": "SEPTIANI AGUSTIN",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072377315.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1K_d0VqfVBP-oku4R2nkZzPpH60XUBBiW\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083403026",
+  "nama": "SHALIKA KHANUM",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083403026.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Il-gAzrtAJvXufI1_fTZmENZW9s2j2UN\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0079078396",
+  "nama": "SILVIA AGUSTIN",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0079078396.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1OLzikNjCcM4XAZFysMPftjoOwWSNdPMg\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0084033303",
+  "nama": "SILVIA RAMADANI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0084033303.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1i9AsZTgNN_kDRNnmaNoCMxMpG9UQQXVp\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0072756823",
+  "nama": "SINTA",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0072756823.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1-jWg28usUWyaRV6cN2WzOSQKX1gRiVef\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089039509",
+  "nama": "SITI AISSYAH",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089039509.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1qZheKL2uxJyXJnIPpbf0yFBDerSJH53A\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086185217",
+  "nama": "SITI HAPSOH NURBAITI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086185217.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1AnvJyJZhQwfnTb7B0qE-ueSr46ubCVWC\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0088688390",
+  "nama": "SITI NURHALIMAH",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0088688390.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Lgs1eBM2pFb3clMMlLny4OV9rlMaqx9u\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0086191409",
+  "nama": "SITI NURJANAH",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0086191409.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1zKwYy18blpHE1aWtUdcmxHr4ntbDFjkH\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085571471",
+  "nama": "SITI PADILATUL MUPIDAH",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085571471.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1qKXDPmK4TBPt9sTcGkOTgm5pdQbINF_N\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0075766804",
+  "nama": "SITI SARAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0075766804.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1hhD5XRMBjnJGW9Db1XLZ75RlWc-gryUY\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087192332",
+  "nama": "SRI AMALIA LAILA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087192332.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1KCRg-ZREWM_ENNGfjk2KOkfCylHLZpj5\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074306417",
+  "nama": "SRI ANJANI SELVIANA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074306417.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1L4CcuobPhSzMw2X21lAj7HhPKd8oNjkG\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0073359123",
+  "nama": "STEVEN NATHANAEL PURBA",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0073359123.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1kc_AyU9X_OnjONvQEkjJILh5KJPEpvse\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0088668241",
+  "nama": "SULASTRI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0088668241.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1hLJA5-FjSlBdOUC588slkXQR4idgr_sZ\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083068444",
+  "nama": "SUTI ROHMAH",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083068444.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1MYAwZsOIoMIZdL_JkES6aNV5VfWMuJH9\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089133384",
+  "nama": "SYIFA NURHASANAH",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089133384.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1MGbQWMCkGCakxn5lUGolmPhmw4kHw32p\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074339926",
+  "nama": "SYIPA NUR AZAHRA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074339926.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1sjzp4mqxtXAIeVuPRARpMQ29fnZ-QRoF\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076097270",
+  "nama": "TIA SAPIKA DEWI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076097270.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1YcHxFOZvsK7JCK8Pz8zpYC9ivxSPDFAS\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089758104",
+  "nama": "TITA MUSFIDAH",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089758104.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/19nVQ7aadW69yI3N8vqgFH6y_vbzMpWTm\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082144537",
+  "nama": "TITA PUTRI DAMAYANTI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082144537.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1cv5ZjEPWzwusF_ouGuhF4neTQn1n7jtL\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089094728",
+  "nama": "TRI PUSPA LESTARI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089094728.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1idg8yBOU5JHlVBkxRl8rb6M1iJTE9AhS\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0076081061",
+  "nama": "UMMI KULSUM",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0076081061.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1v1Mlw6GeQL0pNKJ9woDlQbRpw0R_53kB\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087226868",
+  "nama": "UUD DAUD PRATAMA",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087226868.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1VKJ8_ivmVMaHDa1t8DOHekL0MpoxkLXd\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074926685",
+  "nama": "VIA MANICK HIDAYATI",
+  "kelas": "XII.2",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074926685.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/11JDGrfynx3xaxyyW_2_UOYDWT0WgnQuG\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074671122",
+  "nama": "VINNA NUR CAHYANI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074671122.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1aiP3V66VzqabakQNU8saHP6-IKq5w9_w\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0074905617",
+  "nama": "WILDAN NUR ROFI",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0074905617.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1k4OZmMuWbXOEqQOJXEnYSw-9JYQzJJxP\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0089897893",
+  "nama": "WITA PRIYANTI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0089897893.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1Ha8v6c1a8qEvbssu_dyGXAsIDN1kCsni\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0073807949",
+  "nama": "WULAN",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0073807949.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/17ywSE485ZvOyYCYUv2HryR8WYXNHH7TO\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085602769",
+  "nama": "WULAN CAHYA NINGRUM",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085602769.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/11YIFjWSFU6jFBRHhvjmuBPPF_AcKuy7S\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077591072",
+  "nama": "WULAN JULIANTI",
+  "kelas": "XII.5",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077591072.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1pDvMgm_8jxSOzSfL4uIeFM5G7XRRsrF1\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0083051304",
+  "nama": "YUKA MUTIARA AZHARA",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0083051304.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/10BaFV2d1uDq4Dd_g48No4lPYiVksXgA0\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0088109362",
+  "nama": "YUKE MUTIARA AZHARI",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0088109362.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1RKVWbCFr0VflA8luXAhXsZihV3-SGZSd\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085548527",
+  "nama": "YULI HUSNUL KHOTIMAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085548527.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/10Gcc3PFPDF_RPbqKj4vE3cktWyaPNbt3\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0078450629",
+  "nama": "YULIYANA",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0078450629.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1r4tLEh9LJmN5I_OwS8dXAPdIUdCjHr_P\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0087196138",
+  "nama": "ZAHRA ANISA FAIRUS",
+  "kelas": "XII.3",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0087196138.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1aFR4sMlEs4BOyquKXjUUDfgsn8p-VW4b\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "3075518637",
+  "nama": "ZAHRA AULIA RAMADANI",
+  "kelas": "XII.1",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/3075518637.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1yfya0L-DCg9KbLWC_OfoNAf0IMzHQKu5\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0077516879",
+  "nama": "ZAHRA NURUL MAWADAH",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0077516879.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1dklzjjGrRO-woN3GDp1CVMx9GZX3CrRo\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0082562345",
+  "nama": "ZAHRA RAHMA OCTAVIANI",
+  "kelas": "XII.6",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0082562345.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1rJ3kYwRgAXYfmjMEpAiq8dL2PVtYWXU8\/view?usp=drivesdk"
+ },
+ {
+  "nisn": "0085499001",
+  "nama": "ZESIKA SALSABIL FAHRIZAL",
+  "kelas": "XII.4",
+  "keterangan": "LULUS",
+  "foto": "https:\/\/smanida.github.io\/kelulusan\/foto\/0085499001.jpg",
+  "skkb": "https:\/\/drive.google.com\/file\/d\/1kgI3D6bVYMRXCCiv_yNxU-0SXp5vsfma\/view?usp=drivesdk"
+ }
 ]
